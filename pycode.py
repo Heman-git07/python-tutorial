@@ -1,3 +1,2 @@
-#display statement
-print "heman" #print using double quots
-print 'heman' #print using single quots
+#display statement in python3 (use paranthesis)
+print ("iam heman")
