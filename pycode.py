@@ -1,2 +1,4 @@
-#adding two strings
-print "hello" + " heman"
+#variables(containers)
+a=10
+print 10
+
