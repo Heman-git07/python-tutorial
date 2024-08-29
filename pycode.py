@@ -1,2 +1,2 @@
-#display statement in python3 (use paranthesis)
-print ("iam heman")
+#adding two strings
+print "hello" + " heman"
