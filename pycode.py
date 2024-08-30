@@ -1,4 +1,2 @@
-#Add a comment above the declaration of city_pop with a description of what you think the variable contains.
-city_name = "St. Potatosburg"
-#the city_pop contains number of population
-city_pop = 340000
+#You are going shopping. Let’s make a grocery list so that you can plan your budget.Store the number of cucumbers you want to buy in a variable called cucumbers. Make sure it’s at least 1, and that it’s the appropriate datatype! The store doesn’t sell partial cucumbers.
+cucumbers=4
