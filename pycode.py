@@ -21,6 +21,11 @@ print viking
 # The string below is broken. Fix it using the escape backslash!
 
 'This isn\'t flying, this is falling with style!'
+#On line 13, assign the variable fifth_letter equal to the fifth letter of the string “MONTY”.
+
+fifth_letter ="MONTY"[4]
+
+print fifth_letter
 
 
 
