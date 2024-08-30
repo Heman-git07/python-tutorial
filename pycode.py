@@ -77,6 +77,11 @@ color = "Blue"
 
 print "Ah, so your name is %s, your quest is %s, " \
 "and your favorite color is %s." % (name, quest, color)
+# Write your code below, starting on line 3!
+
+my_string="heman"
+print len(my_string)
+print my_string.upper()
 
 
 
