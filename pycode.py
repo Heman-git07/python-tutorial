@@ -59,6 +59,9 @@ line 5, then print it out on line 6!"""
 the_machine_goes="Ping!"
 print the_machine_goes
 
+# Print the concatenation of "Spam and eggs" on line 3!
+print "Spam "+"and "+"eggs"
+
 
 
 
