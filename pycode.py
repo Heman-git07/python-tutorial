@@ -1,3 +1,2 @@
-#Multiply two numbers together and assign the result to a variable called product
-product=5*2
-print product
+#What is the remainder when 1398 is divided by 11? Save the results in a variable called remainder.
+remainder=1398%11
