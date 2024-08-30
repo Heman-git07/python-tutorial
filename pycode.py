@@ -64,7 +64,11 @@ print "Spam "+"and "+"eggs"
 # Turn 3.14 into a string on line 3!
 
 print "The value of pi is around " + str(3.14)
+#Take a look at the code in the editor. What do you think it’ll do? Click Run when you think you know.
+string_1 = "Camelot"
+string_2 = "place"
 
+print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
 
 
 
