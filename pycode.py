@@ -1,9 +1,10 @@
-#Create a variable called product that contains the result of multiplying the float value of float_1 and float_2.
-#Create a string called big_string that says:with the value of product where the X is
-float_1 = 0.25
-float_2 = 40.0
-product=float_1*float_2
-big_string="The product was 10"
+skill_completed="Python Syntax"
+exercises_completed=13
+points_per_exercise=5
+point_total=100
+point_total+=exercises_completed*points_per_exercise
+#The amount of points for each exercise may change, because points don't exist yet
+print "i got",point_total,"points"
 
 
 
