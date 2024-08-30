@@ -1,8 +1,12 @@
-#Each cucumber costs 3.25 doubloons. Store the price per cucumber in a variable called price_per_cucumber.
-#Create a new variable called total_cost which is the product of how many cucumbers you are going to buy and the cost per cucumber
-#Print out total_cost.
-cucumbers=4
-price_per_cucumber=3.25
-total_cost=4*3.25
-print total_cost
+#You have come home from the grocery store with 100 cucumbers to split amongst yourself and your 5 roommates (6 people total).
+#Create a variable called whole_cucumbers_per_person that is the integer result of dividing cucumbers by num_people.Print whole_cucumbers_per_person to the console.
+#You realize that the numbers don’t divide evenly and you don’t want to throw out the remaining cucumbers. Create a variable called float_cucumbers_per_person that holds the float result of dividing cucumbers by num_people.Print float_cucumbers_per_person to the console
+cucumbers=100
+num_people=6
+whole_cucumbers_per_person=100/6
+print whole_cucumbers_per_person
+float_cucumbers_per_person=100./6
+
+
+
 
