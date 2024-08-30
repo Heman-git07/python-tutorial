@@ -26,7 +26,9 @@ print viking
 fifth_letter ="MONTY"[4]
 
 print fifth_letter
-
+#On line 1, create a variable named parrot and set it to the string "Norwegian Blue"
+parrot="Norwegian Blue"
+print len(parrot)
 
 
 
