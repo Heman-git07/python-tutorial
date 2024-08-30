@@ -1,7 +1,9 @@
-#Create a variable called haiku and store this haiku as a multi-line string:
-haiku = """The old pond,
-A frog jumps in:
-Plop!"""
+# Hi! I'm Maria and I live in script.py.
+# I'm an expert Python coder.
+# I'm 21 years old and I plan to program cool stuff forever.
+age_is_12=False
+name_is_maria=True
+
 
 
 
