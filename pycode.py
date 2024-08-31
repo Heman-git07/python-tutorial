@@ -89,6 +89,10 @@ tip=15.0/100
 meal=meal+meal*tax
 total=meal+meal*tip
 print total
+#datetime library
+from datetime import datetime
+now=datetime.now()
+print now
 
 
 
