@@ -105,6 +105,12 @@ from datetime import datetime
 now = datetime.now()
 print "%02d/%02d/0%4d" % (now.month,now.day,now.year)
 
+#hour,time,second
+from datetime import datetime
+now = datetime.now()
+
+print '%02d:%02d:%02d' % (now.hour, now.minute, now.second)
+
 
 
 
