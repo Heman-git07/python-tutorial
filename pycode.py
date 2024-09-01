@@ -100,6 +100,10 @@ now=datetime.now()
 print now.year
 print now.month
 print now.day
+#method2
+from datetime import datetime
+now = datetime.now()
+print "%02d/%02d/0%4d" % (now.month,now.day,now.year)
 
 
 
