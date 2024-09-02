@@ -437,6 +437,17 @@ print type(108)
 print type(3.14)
 print type('hello')
 
+def shut_down(s):
+  if s == "yes":
+    return "Shutting down"
+  elif s == "no":
+    return "Shutdown aborted"
+  else:
+    return "Sorry"
+  
+import math
+print math.sqrt(13689)
+
 
 
 
