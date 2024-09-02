@@ -75,7 +75,7 @@ name = "Alex"
 quest = "Teaching Python"
 color = "Blue"
 
-print "Ah, so your name is %s, your quest is %s, " \
+print "Ah, so your name is %s, your quest is %s, " 
 "and your favorite color is %s." % (name, quest, color)
 # Write your code below, starting on line 3!
 
@@ -192,6 +192,18 @@ bool_three = 19 % 4 != 300 / 10 / 10 and False
 bool_four = -(1 ** 2) < 2 ** 0 and 10 % 10 <= 20 - 10 * 2
 
 bool_five = True and True
+
+#boolean operator or
+bool_one = 2 ** 3 == 108 % 100 or 'Cleese' == 'King Arthur'
+
+bool_two = True or False
+
+bool_three = 100 ** 0.5 >= 50 or False
+
+bool_four = True or True
+
+bool_five = 1 ** 100 == 100 ** 1 or 3 * 2 * 1 != 3 + 2 + 1
+
 
 
 
