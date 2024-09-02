@@ -398,6 +398,10 @@ def by_three(number):
 import math
 print math.sqrt(25)
 
+# Import *everything* from the math module on line 3!
+
+from math import *
+
 
 
 
