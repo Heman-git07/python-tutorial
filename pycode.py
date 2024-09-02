@@ -385,6 +385,18 @@ def power(base, exponent):  # Add your parameters here!
 
 power(37, 4)  # Add your arguments here!
 
+#First, def a function called cube that takes an argument called number. Don’t forget the parentheses and the colon!
+def cube(number):
+  return number * number * number
+
+def by_three(number):
+  if number % 3 == 0:
+    return cube(number)
+  else:
+    return False
+
+
+
 
 
 
