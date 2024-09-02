@@ -416,6 +416,17 @@ def distance_from_zero(arg):
 biggest_number(-10, -5, 5, 10)
 smallest_number(-10, -5, 5, 10)
 distance_from_zero(-10)
+# Set maximum to the max value of any set of numbers on line 3!
+
+maximum = max(4, 8, 15)
+
+print maximum
+
+# Set minimum to the min value of any set of numbers on line 3!
+
+minimum = min(4, 8, 15)
+
+print minimum
 
 
 
