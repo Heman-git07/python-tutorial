@@ -588,7 +588,28 @@ zoo_animals[2] = "hyena"
 # What shall fill the void left by our dear departed tiger?
 # Your code here!
 zoo_animals[3] = "lion"
+suitcase = [] 
+suitcase.append("sunglasses")
 
+# Your code here!
+suitcase.append("shirt")
+suitcase.append("pants")
+suitcase.append("shoes")
+
+list_length = len(suitcase) # Set this to the length of suitcase
+
+print "There are %d items in the suitcase." % (list_length)
+print suitcase
+suitcase = ["sunglasses", "hat", "passport", "laptop", "suit", "shoes"]
+
+# The first and second items (index zero and one)
+first = suitcase[0:2]
+
+# Third and fourth items (index two and three)
+middle = suitcase[2:4]
+
+# The last two items (index four and five)
+last = suitcase[4:6]
 
 
 
