@@ -697,6 +697,22 @@ inventory['backpack'].sort()
 inventory['backpack'].remove('dagger')
 inventory['gold'] = inventory['gold'] + 50
 
+#for loop
+names = ["Adam","Alex","Mariah","Martine","Columbus"]
+for i in names:
+  print i
+webster = {
+  "Aardvark" : "A star of a popular children's cartoon show.",
+  "Baa" : "The sound a goat makes.",
+  "Carpet": "Goes on the floor.",
+  "Dab": "A small amount."
+}
+
+# Add your code below!
+for word in webster:
+  print webster[word]
+  
+
 
 
 
