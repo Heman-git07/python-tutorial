@@ -242,6 +242,16 @@ bool_four = not (4>5)
 # Make me true!
 bool_five = (5>4) or (6==6)
 
+response = "Y"
+
+answer = "Left"
+if answer == "Left":
+    print "This is the Verbal Abuse Room, you heap of parrot droppings!"
+    
+# Will the above print statement print to the console?
+# Set response to 'Y' if you think so, and 'N' if you think not.
+
+
 
 
 
