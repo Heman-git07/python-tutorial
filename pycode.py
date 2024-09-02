@@ -322,6 +322,17 @@ if len(e_string) and e_string.isalpha():
 else:
   print "embty"
 
+pyg = 'ay'
+
+original = raw_input('Enter a word:')
+
+if len(original) > 0 and original.isalpha():
+  word=original.lower()
+  first=original[0]
+  print original
+else:
+  print 'empty'  
+
 
 
 
