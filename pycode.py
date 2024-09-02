@@ -315,6 +315,12 @@ if len(e_string):
   print e_string
 else:
   print "embty"
+# to check the sring only contains characters
+e_string="heman"
+if len(e_string) and e_string.isalpha():
+  print e_string
+else:
+  print "embty"
 
 
 
