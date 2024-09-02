@@ -309,6 +309,13 @@ print grade_converter(70)
 # This should print an "F"
 print grade_converter(61)
 
+#if else
+e_string="heman"
+if len(e_string):
+  print e_string
+else:
+  print "embty"
+
 
 
 
