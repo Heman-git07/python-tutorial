@@ -215,6 +215,16 @@ bool_four = not 3 ** 2 + 4 ** 2 != 5 ** 2
 
 bool_five = not not False
 
+bool_one = False or not True and True
+
+bool_two = False and not True or True
+
+bool_three = True and not (False or False)
+
+bool_four = not not True or False and not True
+
+bool_five = False or not (True and True)
+
 
 
 
