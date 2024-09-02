@@ -225,6 +225,23 @@ bool_four = not not True or False and not True
 
 bool_five = False or not (True and True)
 
+# Use boolean expressions as appropriate on the lines below!
+
+# Make me false!
+bool_one = (2 <= 2) and "Alpha" == "Bravo"  # We did this one for you!
+
+# Make me true!
+bool_two = (5==5) or (5>6)
+
+# Make me false!
+bool_three = (6>7) and (5!=5)
+
+# Make me true!
+bool_four = not (4>5)
+
+# Make me true!
+bool_five = (5>4) or (6==6)
+
 
 
 
