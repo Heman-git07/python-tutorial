@@ -448,6 +448,12 @@ def shut_down(s):
 import math
 print math.sqrt(13689)
 
+def distance_from_zero(num):
+  if type(num) == int or type(num) == float:
+    return abs(num)
+  else:
+    return "Nope"
+
 
 
 
