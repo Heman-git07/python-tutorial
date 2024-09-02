@@ -453,6 +453,24 @@ def distance_from_zero(num):
     return abs(num)
   else:
     return "Nope"
+#Write a function called answer that takes no arguments and returns the value 42.
+def answer():
+  return 42
+def hotel_cost(nights):
+  return 140 * nights
+
+def hotel_cost(nights):
+  return 140 * nights
+
+def plane_ride_cost(city):
+  if city == "Charlotte":
+    return 183
+  elif city == "Tampa":
+    return 220
+  elif city == "Pittsburgh":
+    return 222
+  elif city == "Los Angeles":
+    return 475
 
 
 
