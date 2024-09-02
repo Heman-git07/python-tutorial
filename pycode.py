@@ -427,6 +427,15 @@ print maximum
 minimum = min(4, 8, 15)
 
 print minimum
+absolute = abs(-42)
+
+print absolute
+# Print out the types of an integer, a float,
+# and a string on separate lines below.
+
+print type(108)
+print type(3.14)
+print type('hello')
 
 
 
