@@ -1003,3 +1003,19 @@ n = [1, 3, 5]
 # Remove the first item in the list here
 n.pop(0)
 print n
+
+#Change the function so the given argument is multiplied by 3 and returned.
+number = 5
+
+def my_function(x):
+  return x * 3
+
+print my_function(number)
+
+m = 5
+n = 13
+# Add add_function here!
+def add_function(x, y):
+  return x + y
+
+print add_function(m, n)
