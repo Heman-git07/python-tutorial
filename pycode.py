@@ -1577,6 +1577,15 @@ for item in my_list:
 
 f.close()
 
+#2file input output
+with open("text.txt", "w") as my_file:
+  my_file.write("My Data!")
+  
+if not file.closed:
+  file.close()
+
+print my_file.closed
+
 
 
 
