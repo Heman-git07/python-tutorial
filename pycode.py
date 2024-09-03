@@ -988,9 +988,18 @@ def get_class_average(class_list):
     results.append(student_avg)
   return average(results)
 
+#list functions
+n = [1, 3, 5]
+# Do your multiplication here
+n[1]=n[1]*5
+print n
 
-  
+n = [1, 3, 5]
+# Append the number 4 here
+n.append(4)
+print n
 
-
-
-
+n = [1, 3, 5]
+# Remove the first item in the list here
+n.pop(0)
+print n
