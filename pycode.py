@@ -1019,3 +1019,40 @@ def add_function(x, y):
   return x + y
 
 print add_function(m, n)
+
+n = "Hello"
+# Your function here!
+def string_function(s):
+	return s + 'world'
+
+print string_function(n)
+
+def list_function(x):
+  return x
+
+n = [3, 5, 7]
+print list_function(n)
+
+#Inside the function, we print out the item stored at index zero of items.
+def list_function(x):
+  x[1] = x[1] + 3
+  return x
+
+n = [3, 5, 7]
+print list_function(n)
+n = [3, 5, 7]
+# Add your function here
+def list_extender(lst):
+  lst.append(9)
+  return lst
+
+
+print list_extender(n)
+
+n = [3, 5, 7]
+
+def print_list(x):
+  for i in range(0, len(x)):
+    print x[i]
+    
+print_list(n)
